@@ -1,0 +1,35 @@
+{
+  "name": "Appointment",
+  "fields": [
+    {
+      "fieldName": "date",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "patient",
+      "otherEntityRelationshipName": "appointment",
+      "relationshipName": "patient",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "doctor",
+      "otherEntityRelationshipName": "appointment",
+      "relationshipName": "doctor",
+      "ownerSide": true
+    }
+  ],
+  "entityTableName": "appointment",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20220620194629"
+}

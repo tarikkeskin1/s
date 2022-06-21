@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "application",
+      "type": "com.tr.pia.mhrs.config.ApplicationProperties",
+      "sourceType": "com.tr.pia.mhrs.config.ApplicationProperties"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
